@@ -18,7 +18,11 @@ module.exports = {
 		},
 	},
 	variants: {
-		extend: {},
+		extend: {
+			borderStyle: ["hover"],
+			borderColor: ["hover"],
+			borderWidth: ["hover"],
+		},
 	},
 	plugins: [],
 };
