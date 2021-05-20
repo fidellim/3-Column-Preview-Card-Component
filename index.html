@@ -5,48 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./public/styles.css">
   <title>Frontend Mentor | 3-column preview card component</title>
 
 </head>
-<body>
+<body class="w-screen h-auto md:h-screen flex justify-center items-center my-12 md:my-0 bg-veryLightGray">
   
-  <div class="cards-container">
-    <div class="card-container">
-      <img src="./images/icon-sedans.svg" alt="sedans">
-      <h1>sedans</h1>
-      <p>
+  <div class="w-auto flex flex-col md:flex-row mx-8 rounded-md cards-container overflow-hidden">
+    <div class="p-8 card-container bg-brightOrange">
+      <img src="./images/icon-sedans.svg" alt="sedans" class="pb-5">
+      <h1 class="uppercase pb-6 font-bigShouldersDisplay font-bold text-3xl text-veryLightGray">sedans</h1>
+      <p class="pb-5 pr-8 md:pr-0 md:w-44 lg:w-48 min-w-min md:pb-20 leading-6 text-transparentWhite text-sm font-lexendDeca">
         Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
         or on your next road trip.
       </p>
-      <button>Learn More</button>
+      <button class="px-7 py-2 rounded-3xl font-lexendDeca bg-veryLightGray text-brightOrange text-base">Learn More</button>
     </div>
-    <div class="card-container">
-      <img src="./images/icon-suvs.svg" alt="suvs">   
-      <h1>SUVs</h1>
-      <p>
+    <div class="p-8 card-container bg-darkCyan">
+      <img src="./images/icon-suvs.svg" alt="suvs" class="pb-5">   
+      <h1 class="uppercase pb-6 font-bigShouldersDisplay font-bold text-3xl text-veryLightGray">SUVs</h1>
+      <p class="pb-5 pr-8 md:pr-0 md:w-44 lg:w-48 min-w-min md:pb-20 leading-6 text-transparentWhite text-sm font-lexendDeca">
         Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
         and off-road adventures.
       </p>
-      <button>Learn More</button>
+      <button class="px-7 py-2 rounded-3xl font-lexendDeca bg-veryLightGray text-darkCyan text-base">Learn More</button>
     </div>
-    <div class="card-container">
-      <img src="./images/icon-luxury.svg" alt="luxury">
-      <h1>Luxury</h1>
-      <p>
+    <div class="p-8 card-container bg-veryDarkCyan">
+      <img src="./images/icon-luxury.svg" alt="luxury" class="pb-5">
+      <h1 class="uppercase pb-6 font-bigShouldersDisplay font-bold text-3xl text-veryLightGray">Luxury</h1>
+      <p class="pb-5 pr-8 md:pr-0 md:w-44 lg:w-48 md:pb-20 leading-6 text-transparentWhite text-sm font-lexendDeca">
         Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
         rental and arrive in style.
       </p>
-      <button>Learn More</button>
+      <button class="px-7 py-2 rounded-3xl font-lexendDeca bg-veryLightGray text-darkCyan text-base">Learn More</button>
     </div>
   </div>
-  
-
-  
-  
-
-  
- 
   
 </body>
 </html>
